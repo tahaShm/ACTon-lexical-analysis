@@ -1,0 +1,35 @@
+// test case #1
+actor child extends parent(5) {
+       knownactors {
+            Actor1 a;
+            Actor2 ac2;
+       }
+       actorvars {
+            int acv1;
+            int acv2[10];
+            string acv3;
+            boolean acv4;
+       }
+       msghandler initial(int msgIntIn, string msgStringIn){
+            x = a++ ? 1 : 2 ? a*2 ? x-- : e : (c ? ("Bruh") : x + --w);
+            if (sender == 1)
+               print("first if");
+            if (b + 1 / x) {
+                self.func1();
+                sender.func2();
+            }
+            else {
+            for (k = 1; 2 + -2; a = a + 1) {
+                break;
+                continue;
+                a = a - b;
+            }
+                zahra.moosavi(movahhed);
+            }
+       }
+}
+
+main {
+    A instace1(a1, a2, a3):();
+    B instace2(b1):("SkrattarDuForlorarDu", 2, -2);
+}
